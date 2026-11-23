@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">ज्ञान सेतु</string>
+    <string name="app_tagline">भारत का बहु-श्रेणी क्विज़ एवं शिक्षण ऐप</string>
+    <string name="app_subtitle">स्कूली शिक्षा से यूपीएससी, आईटीआई से दैनिक ज्ञान तक</string>
+
+    <!-- Quick Mixed Quiz CTA -->
+    <string name="quick_quiz_title">⚡ त्वरित मिश्रित क्विज़ (Quick Quiz)</string>
+    <string name="quick_quiz_desc">बिना किसी चयन के तुरंत खेलें! सामान्य ज्ञान, गणित, हिंदी मुहावरे, लोकोक्तियाँ एवं दैनिक पहेलियों का संतुलित मिश्रण।</string>
+    <string name="btn_start_quick_quiz">अभी खेलें — त्वरित क्विज़</string>
+    <string name="btn_surprise_me">सरप्राइज मी</string>
+
+    <!-- Daily Streak & Challenge -->
+    <string name="daily_streak_title">दैनिक स्ट्रीक</string>
+    <string name="daily_streak_count">%d दिन</string>
+    <string name="daily_challenge_title">📅 आज का दैनिक क्विज़</string>
+    <string name="daily_challenge_desc">आपके मस्तिष्क अभ्यास के लिए 10 ताजा एवं चुनिंदा प्रश्न</string>
+    <string name="btn_start_daily_quiz">दैनिक क्विज़ शुरू करें</string>
+
+    <!-- Categories Section -->
+    <string name="section_categories">क्विज़ श्रेणियाँ चुनें</string>
+    <string name="section_categories_desc">अपनी परीक्षा अथवा रुचि के अनुसार विशेष अभ्यास</string>
+    <string name="all_categories">सभी श्रेणियाँ</string>
+
+    <!-- Quiz Navigation & Controls -->
+    <string name="btn_next">अगला</string>
+    <string name="btn_prev">पिछला</string>
+    <string name="btn_skip">छोड़ें</string>
+    <string name="btn_clear">उत्तर हटाएं</string>
+    <string name="btn_mark_review">पुनर्विचार हेतु चिन्हित</string>
+    <string name="btn_marked">चिन्हित</string>
+    <string name="btn_submit_quiz">टेस्ट सबमिट करें</string>
+    <string name="btn_view_palette">प्रश्न तालिका</string>
+    <string name="confirm_submit_title">क्या आप क्विज़ सबमिट करना चाहते हैं?</string>
+    <string name="confirm_submit_msg">आपने %2$d में से %1$d प्रश्नों के उत्तर दिए हैं। क्या आप टेस्ट समाप्त करना चाहते हैं?</string>
+    <string name="confirm_exit_title">क्विज़ छोड़ें?</string>
+    <string name="confirm_exit_msg">आपकी वर्तमान क्विज़ प्रगति सबमिट हो जाएगी।</string>
+    <string name="quiz_ended">क्विज़ समाप्त हुआ। अगली बार नए सिरे से शुरू होगा।</string>
+
+    <!-- Modes -->
+    <string name="mode_exam">परीक्षा मोड (समय सीमा सहित)</string>
+    <string name="mode_practice">अभ्यास मोड (तुरंत उत्तर व व्याख्या)</string>
+    <string name="mode_quick_mixed">त्वरित मिश्रित क्विज़</string>
+    <string name="mode_daily">दैनिक क्विज़</string>
+    <string name="mode_challenge">चुनौती मोड</string>
+    <string name="mode_bookmarks">सहेजे गए प्रश्न</string>
+
+    <!-- Quiz Screen -->
+    <string name="question_counter">प्रश्न %1$d / %2$d</string>
+    <string name="timer_format">%1$02d:%2$02d</string>
+    <string name="explanation_title">💡 व्याख्या एवं कारण</string>
+    <string name="audio_speak">बोलकर सुनाएं</string>
+    <string name="audio_stop">ध्वनि रोकें</string>
+
+    <!-- Results Screen -->
+    <string name="result_title">क्विज़ परिणाम</string>
+    <string name="result_congrats">अद्भुत प्रदर्शन! बधाई!</string>
+    <string name="result_good">अच्छा प्रयास! अभ्यास जारी रखें।</string>
+    <string name="result_score">प्राप्तांक: %1$.2f / %2$.0f</string>
+    <string name="result_accuracy">सटीकता: %1$.1f%%</string>
+    <string name="stat_correct">सही उत्तर</string>
+    <string name="stat_wrong">गलत उत्तर</string>
+    <string name="stat_skipped">छोड़े गए</string>
+    <string name="stat_time_taken">लिया गया समय</string>
+    <string name="stat_avg_time">औसत प्रति प्रश्न</string>
+    <string name="btn_review_answers">सभी उत्तर व व्याख्या देखें</string>
+    <string name="btn_retry_missed">केवल गलत प्रश्नों का पुनः अभ्यास</string>
+    <string name="btn_retake">क्विज़ दोबारा दें</string>
+    <string name="btn_share">परिणाम साझा करें</string>
+    <string name="btn_home">होम पेज पर जाएं</string>
+    <string name="share_text">मैंने ज्ञान सेतु क्विज़ ऐप पर \"%2$s\" में %1$.2f अंक और %3$.1f%% सटीकता प्राप्त की! आप भी प्रयास करें!</string>
+
+    <!-- Bookmarks -->
+    <string name="title_bookmarks">सहेजे गए प्रश्न (बुकमार्क)</string>
+    <string name="no_bookmarks_msg">अभी तक कोई प्रश्न सहेजा नहीं गया है। किसी प्रश्न को बाद में पढ़ने के लिए क्विज़ के दौरान बुकमार्क आइकन दबाएं।</string>
+    <string name="btn_practice_saved">सहेजे गए प्रश्नों का अभ्यास करें (%d)</string>
+
+    <!-- History & Analytics -->
+    <string name="title_analytics">प्रगति एवं इतिहास</string>
+    <string name="stat_total_tests">कुल पूर्ण टेस्ट</string>
+    <string name="stat_total_questions">हल किए गए प्रश्न</string>
+    <string name="stat_best_score">सर्वश्रेष्ठ स्कोर</string>
+    <string name="recent_quizzes">हालिया क्विज़ इतिहास</string>
+    <string name="no_history_msg">अभी तक कोई क्विज़ नहीं दिया गया है। आज ही अपना पहला टेस्ट शुरू करें!</string>
+
+    <!-- Search -->
+    <string name="search_hint">परीक्षा, बोर्ड, विषय, पाठ या प्रश्न खोजें...</string>
+    <string name="no_search_results">कोई परिणाम नहीं मिला। \"UPSC\", \"गणित\", \"इलेक्ट्रीशियन\", \"लोकोक्ति\" आदि लिखकर खोजें।</string>
+
+    <!-- Settings -->
+    <string name="title_settings">सेटिंग्स एवं प्राथमिकताएं</string>
+    <string name="setting_theme">थीम (रंग रूप)</string>
+    <string name="setting_theme_desc">अपनी पसंदीदा थीम चुनें</string>
+    <string name="setting_language">ऐप भाषा (Language)</string>
+    <string name="setting_language_desc">हिंदी अथवा English</string>
+    <string name="setting_auto_tts">स्वतः प्रश्न वाचन (आवाज)</string>
+    <string name="setting_auto_tts_desc">प्रश्न आने पर स्वतः बोलकर सुनाएं</string>
+    <string name="setting_timer_per_q">प्रति प्रश्न समय सीमा</string>
+    <string name="setting_negative_marking">नेगेटिव मार्किंग (नकारात्मक अंक)</string>
+    <string name="setting_negative_marking_desc">परीक्षा मोड में गलत उत्तर पर अंक कटौती</string>
+    <string name="setting_reset_data">प्रगति रीसेट करें</string>
+    <string name="setting_about">ज्ञान सेतु के बारे में</string>
+    <string name="about_text">ज्ञान सेतु संस्करण 1.0.0\nसमस्त भारतवासियों के लिए निर्मित — स्कूल से लेकर प्रतियोगी परीक्षा, तकनीकी ट्रेड और गृहणियों तक।</string>
+
+    <!-- Dialogs -->
+    <string name="configure_quiz">क्विज़ सेटिंग्स</string>
+    <string name="dialog_class">कक्षा चुनें</string>
+    <string name="dialog_subject">विषय चुनें</string>
+    <string name="class_all">सभी कक्षाएं</string>
+    <string name="class_10">कक्षा 10</string>
+    <string name="class_12">कक्षा 12</string>
+    <string name="subject_all">सभी विषय</string>
+    <string name="dialog_difficulty">कठिनाई स्तर</string>
+    <string name="dialog_count">प्रश्नों की संख्या</string>
+    <string name="dialog_mode">खेलने का मोड</string>
+    <string name="btn_start_quiz">क्विज़ शुरू करें</string>
+    <string name="btn_cancel">रद्द करें</string>
+    <string name="btn_ok">ठीक है</string>
+</resources>

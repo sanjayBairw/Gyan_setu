@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base Palette -->
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- Academic Theme (Navy & Crisp White) -->
+    <color name="academic_primary">#1A365D</color>
+    <color name="academic_primary_variant">#0F2442</color>
+    <color name="academic_secondary">#2B6CB0</color>
+    <color name="academic_background">#F7FAFC</color>
+    <color name="academic_surface">#FFFFFF</color>
+    <color name="academic_on_primary">#FFFFFF</color>
+
+    <!-- Competitive Exams Theme (Vibrant Saffron & Amber Gold) -->
+    <color name="competitive_primary">#D97706</color>
+    <color name="competitive_primary_variant">#B45309</color>
+    <color name="competitive_secondary">#F59E0B</color>
+    <color name="competitive_background">#FFFBEB</color>
+    <color name="competitive_surface">#FFFFFF</color>
+    <color name="competitive_on_primary">#FFFFFF</color>
+
+    <!-- Technical Theme (Industrial Dark Slate & Amber) -->
+    <color name="tech_primary">#1E293B</color>
+    <color name="tech_primary_variant">#0F172A</color>
+    <color name="tech_secondary">#D97706</color>
+    <color name="tech_background">#0F172A</color>
+    <color name="tech_surface">#1E293B</color>
+    <color name="tech_on_primary">#F8FAFC</color>
+
+    <!-- General Knowledge Theme (Teal & Emerald) -->
+    <color name="gk_primary">#065F46</color>
+    <color name="gk_primary_variant">#064E3B</color>
+    <color name="gk_secondary">#059669</color>
+    <color name="gk_background">#F0FDF4</color>
+    <color name="gk_surface">#FFFFFF</color>
+    <color name="gk_on_primary">#FFFFFF</color>
+
+    <!-- Homemaker Theme (Soft Coral & Saffron) -->
+    <color name="home_primary">#EA580C</color>
+    <color name="home_primary_variant">#C2410C</color>
+    <color name="home_secondary">#FB923C</color>
+    <color name="home_background">#FFF7ED</color>
+    <color name="home_surface">#FFFFFF</color>
+    <color name="home_on_primary">#FFFFFF</color>
+
+    <!-- Mixed Quiz Theme (Purple & Gradient Violet) -->
+    <color name="mixed_primary">#6B21A8</color>
+    <color name="mixed_primary_variant">#581C87</color>
+    <color name="mixed_secondary">#9333EA</color>
+    <color name="mixed_gradient_start">#7C3AED</color>
+    <color name="mixed_gradient_end">#DB2777</color>
+    <color name="mixed_background">#FAF5FF</color>
+    <color name="mixed_surface">#FFFFFF</color>
+    <color name="mixed_on_primary">#FFFFFF</color>
+
+    <!-- Dark Theme (Midnight AMOLED) -->
+    <color name="dark_primary">#3B82F6</color>
+    <color name="dark_background">#0B0F19</color>
+    <color name="dark_surface">#151C2C</color>
+    <color name="dark_surface_variant">#1E293B</color>
+    <color name="dark_on_surface">#F1F5F9</color>
+
+    <!-- Status & Feedback Colors -->
+    <color name="correct_green">#10B981</color>
+    <color name="correct_green_bg">#D1FAE5</color>
+    <color name="wrong_red">#EF4444</color>
+    <color name="wrong_red_bg">#FEE2E2</color>
+    <color name="warning_orange">#F59E0B</color>
+    <color name="review_purple">#8B5CF6</color>
+    <color name="skipped_gray">#94A3B8</color>
+
+    <!-- Card and Text Neutrals -->
+    <color name="text_primary">#1E293B</color>
+    <color name="text_secondary">#64748B</color>
+    <color name="text_hint">#94A3B8</color>
+    <color name="divider_line">#E2E8F0</color>
+    <color name="surface_card">#FFFFFF</color>
+    <color name="surface_stroke">#E2E8F0</color>
+
+    <!-- Category Tile Colors -->
+    <color name="cat_competitive">#1E40AF</color>
+    <color name="cat_school">#047857</color>
+    <color name="cat_gk">#0E7490</color>
+    <color name="cat_reasoning">#6D28D9</color>
+    <color name="cat_math">#B45309</color>
+    <color name="cat_hindi">#BE123C</color>
+    <color name="cat_english">#4338CA</color>
+    <color name="cat_technical">#334155</color>
+    <color name="cat_homemaker">#C2410C</color>
+</resources>

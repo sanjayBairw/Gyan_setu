@@ -1,0 +1,65 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.IndiaQuiz" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/academic_primary</item>
+        <item name="colorPrimaryVariant">@color/academic_primary_variant</item>
+        <item name="colorSecondary">@color/academic_secondary</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <!-- Academic Theme (Default) -->
+    <style name="Theme.IndiaQuiz.Academic" parent="Base.Theme.IndiaQuiz">
+        <item name="colorPrimary">@color/academic_primary</item>
+        <item name="colorPrimaryVariant">@color/academic_primary_variant</item>
+        <item name="colorSecondary">@color/academic_secondary</item>
+        <item name="android:windowBackground">@color/academic_background</item>
+    </style>
+
+    <!-- Competitive Exams Theme (Vibrant Saffron & Gold for UPSC, SSC, Banking, Railways) -->
+    <style name="Theme.IndiaQuiz.Competitive" parent="Base.Theme.IndiaQuiz">
+        <item name="colorPrimary">@color/competitive_primary</item>
+        <item name="colorPrimaryVariant">@color/competitive_primary_variant</item>
+        <item name="colorSecondary">@color/competitive_secondary</item>
+        <item name="android:windowBackground">@color/competitive_background</item>
+    </style>
+
+    <!-- Technical Theme (Industrial Dark Slate & Amber) -->
+    <style name="Theme.IndiaQuiz.Technical" parent="Base.Theme.IndiaQuiz">
+        <item name="colorPrimary">@color/tech_primary</item>
+        <item name="colorPrimaryVariant">@color/tech_primary_variant</item>
+        <item name="colorSecondary">@color/tech_secondary</item>
+        <item name="android:windowBackground">@color/tech_background</item>
+    </style>
+
+    <!-- General Knowledge Theme (Teal & Emerald) -->
+    <style name="Theme.IndiaQuiz.GK" parent="Base.Theme.IndiaQuiz">
+        <item name="colorPrimary">@color/gk_primary</item>
+        <item name="colorPrimaryVariant">@color/gk_primary_variant</item>
+        <item name="colorSecondary">@color/gk_secondary</item>
+        <item name="android:windowBackground">@color/gk_background</item>
+    </style>
+
+    <!-- Homemaker Theme (Soft Coral & Saffron) -->
+    <style name="Theme.IndiaQuiz.Homemaker" parent="Base.Theme.IndiaQuiz">
+        <item name="colorPrimary">@color/home_primary</item>
+        <item name="colorPrimaryVariant">@color/home_primary_variant</item>
+        <item name="colorSecondary">@color/home_secondary</item>
+        <item name="android:windowBackground">@color/home_background</item>
+    </style>
+
+    <!-- Mixed Quiz Theme (Purple & Gradient) -->
+    <style name="Theme.IndiaQuiz.Mixed" parent="Base.Theme.IndiaQuiz">
+        <item name="colorPrimary">@color/mixed_primary</item>
+        <item name="colorPrimaryVariant">@color/mixed_primary_variant</item>
+        <item name="colorSecondary">@color/mixed_secondary</item>
+        <item name="android:windowBackground">@color/mixed_background</item>
+    </style>
+
+    <!-- Dark Theme (Midnight AMOLED) -->
+    <style name="Theme.IndiaQuiz.Dark" parent="Base.Theme.IndiaQuiz">
+        <item name="colorPrimary">@color/dark_primary</item>
+        <item name="colorSecondary">@color/mixed_secondary</item>
+        <item name="android:windowBackground">@color/dark_background</item>
+    </style>
+</resources>

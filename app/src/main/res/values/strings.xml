@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">GyanSetu</string>
+    <string name="app_tagline">India\'s Multi-Category Quiz &amp; Learning App</string>
+    <string name="app_subtitle">From School to UPSC, ITI to Daily Knowledge</string>
+
+    <!-- Quick Mixed Quiz CTA -->
+    <string name="quick_quiz_title">⚡ Quick Mixed Quiz</string>
+    <string name="quick_quiz_desc">Start instantly! A balanced mix of GK, Math, Hindi Lokoktiyan, Reasoning &amp; Everyday puzzles.</string>
+    <string name="btn_start_quick_quiz">Play Mixed Quiz Now</string>
+    <string name="btn_surprise_me">Surprise Me</string>
+
+    <!-- Daily Streak & Challenge -->
+    <string name="daily_streak_title">Daily Streak</string>
+    <string name="daily_streak_count">%d Days</string>
+    <string name="daily_challenge_title">📅 Today\'s Daily Quiz</string>
+    <string name="daily_challenge_desc">10 fresh questions curated daily for your brain exercise</string>
+    <string name="btn_start_daily_quiz">Start Daily Quiz</string>
+
+    <!-- Categories Section -->
+    <string name="section_categories">Explore Learning Categories</string>
+    <string name="section_categories_desc">Targeted practice for your chosen exams and subjects</string>
+    <string name="all_categories">All Categories</string>
+
+    <!-- Quiz Navigation & Controls -->
+    <string name="btn_next">Next</string>
+    <string name="btn_prev">Previous</string>
+    <string name="btn_skip">Skip</string>
+    <string name="btn_clear">Clear</string>
+    <string name="btn_mark_review">Mark for Review</string>
+    <string name="btn_marked">Marked</string>
+    <string name="btn_submit_quiz">Submit Test</string>
+    <string name="btn_view_palette">Questions</string>
+    <string name="confirm_submit_title">Submit Quiz?</string>
+    <string name="confirm_submit_msg">You have answered %1$d of %2$d questions. Are you sure you want to complete the test?</string>
+    <string name="confirm_exit_title">Leave Quiz?</string>
+    <string name="confirm_exit_msg">Your current quiz progress will be submitted.</string>
+    <string name="quiz_ended">Quiz ended. Starting fresh next time.</string>
+
+    <!-- Modes -->
+    <string name="mode_exam">Exam Mode</string>
+    <string name="mode_practice">Practice Mode</string>
+    <string name="mode_quick_mixed">Quick Mixed</string>
+    <string name="mode_daily">Daily Quiz</string>
+    <string name="mode_challenge">Challenge Mode</string>
+    <string name="mode_bookmarks">Saved Practice</string>
+
+    <!-- Quiz Screen -->
+    <string name="question_counter">Question %1$d / %2$d</string>
+    <string name="timer_format">%1$02d:%2$02d</string>
+    <string name="explanation_title">💡 Explanation &amp; Rationale</string>
+    <string name="audio_speak">Read Aloud</string>
+    <string name="audio_stop">Stop Audio</string>
+
+    <!-- Results Screen -->
+    <string name="result_title">Quiz Results</string>
+    <string name="result_congrats">Outstanding Performance!</string>
+    <string name="result_good">Good Effort, Keep Practicing!</string>
+    <string name="result_score">Score: %1$.2f / %2$.0f</string>
+    <string name="result_accuracy">Accuracy: %1$.1f%%</string>
+    <string name="stat_correct">Correct</string>
+    <string name="stat_wrong">Incorrect</string>
+    <string name="stat_skipped">Skipped</string>
+    <string name="stat_time_taken">Time Taken</string>
+    <string name="stat_avg_time">Avg / Question</string>
+    <string name="btn_review_answers">Review All Answers</string>
+    <string name="btn_retry_missed">Practice Missed Only</string>
+    <string name="btn_retake">Retake Quiz</string>
+    <string name="btn_share">Share Result</string>
+    <string name="btn_home">Back to Home</string>
+    <string name="share_text">I scored %1$.2f in \"%2$s\" on GyanSetu Quiz App with %3$.1f%% accuracy! Try it out!</string>
+
+    <!-- Bookmarks -->
+    <string name="title_bookmarks">Saved Questions</string>
+    <string name="no_bookmarks_msg">No saved questions yet. Tap the bookmark icon during a quiz to save important questions for later revision.</string>
+    <string name="btn_practice_saved">Practice All Saved (%d)</string>
+
+    <!-- History & Analytics -->
+    <string name="title_analytics">Analytics &amp; History</string>
+    <string name="stat_total_tests">Tests Completed</string>
+    <string name="stat_total_questions">Questions Practiced</string>
+    <string name="stat_best_score">Best Score</string>
+    <string name="recent_quizzes">Recent Quiz History</string>
+    <string name="no_history_msg">No quizzes attempted yet. Start your first quiz today!</string>
+
+    <!-- Search -->
+    <string name="search_hint">Search exams, boards, subjects, topics...</string>
+    <string name="no_search_results">No matching questions or topics found. Try searching for "UPSC", "CBSE 10", "Electrician", "GK", or "Math".</string>
+
+    <!-- Settings -->
+    <string name="title_settings">Settings &amp; Preferences</string>
+    <string name="setting_theme">Theme</string>
+    <string name="setting_theme_desc">Select your visual appearance</string>
+    <string name="setting_language">App Language</string>
+    <string name="setting_language_desc">English or हिंदी</string>
+    <string name="setting_auto_tts">Auto-read Questions</string>
+    <string name="setting_auto_tts_desc">Automatically read questions aloud using Text-To-Speech</string>
+    <string name="setting_timer_per_q">Timer Per Question</string>
+    <string name="setting_negative_marking">Negative Marking</string>
+    <string name="setting_negative_marking_desc">Deduct marks for incorrect answers in Exam mode</string>
+    <string name="setting_reset_data">Reset Quiz Progress</string>
+    <string name="setting_about">About GyanSetu</string>
+    <string name="about_text">GyanSetu v1.0.0\nCreated for learners across India. From students to competitive aspirants, ITI technicians and homemakers.</string>
+
+    <!-- Dialogs -->
+    <string name="configure_quiz">Configure Quiz</string>
+    <string name="dialog_class">Select Class</string>
+    <string name="dialog_subject">Select Subject</string>
+    <string name="class_all">All Classes</string>
+    <string name="class_10">Class 10</string>
+    <string name="class_12">Class 12</string>
+    <string name="subject_all">All Subjects</string>
+    <string name="dialog_difficulty">Select Difficulty</string>
+    <string name="dialog_count">Number of Questions</string>
+    <string name="dialog_mode">Play Mode</string>
+    <string name="btn_start_quiz">Start Quiz</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_ok">OK</string>
+</resources>
