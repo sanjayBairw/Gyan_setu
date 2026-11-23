@@ -8064,6 +8064,903 @@ object PrepopulateData {
             )
         )
 
+        list.add(
+            Question(
+                id = "Q_RBSE_C1_M_001",
+                category = "SCHOOL_EDUCATION",
+                subcategory = "RBSE",
+                examOrBoard = "RBSE",
+                targetClass = "Class 1",
+                subject = "Mathematics",
+                chapterOrTopic = "Numbers & Counting",
+                difficulty = "EASY",
+                language = "BOTH",
+                questionText = "What comes immediately after the number 9? (9 + 1 = ?)",
+                questionTextHindi = "संख्या 9 के ठीक बाद कौन सी संख्या आती है? (9 + 1 = ?)",
+                options = listOf("8", "10", "11", "7"),
+                optionsHindi = listOf("8", "10", "11", "7"),
+                correctAnswerIndex = 1,
+                explanation = "Counting numbers: 7, 8, 9, 10. The number immediately following 9 is 10.",
+                explanationHindi = "गिनती में 9 के ठीक बाद 10 आता है। (9 + 1 = 10)।",
+                negativeMarks = 0.0f,
+                tags = listOf("RBSE", "Class 1", "Mathematics", "Counting")
+            )
+        )
+
+        list.add(
+            Question(
+                id = "Q_RBSE_C1_HIN_001",
+                category = "SCHOOL_EDUCATION",
+                subcategory = "RBSE",
+                examOrBoard = "RBSE",
+                targetClass = "Class 1",
+                subject = "Hindi",
+                chapterOrTopic = "Varnamala (वर्णमाला)",
+                difficulty = "EASY",
+                language = "BOTH",
+                questionText = "In Hindi alphabet (वर्णमाला), which is the very first vowel letter (स्वर)?",
+                questionTextHindi = "हिंदी वर्णमाला का सबसे पहला स्वर वर्ण कौन सा है?",
+                options = listOf("क (Ka)", "अ (A)", "इ (I)", "ज्ञ (Gya)"),
+                optionsHindi = listOf("क", "अ", "इ", "ज्ञ"),
+                correctAnswerIndex = 1,
+                explanation = "In Hindi Devanagari script, the vowels begin with 'अ' (अ, आ, इ, ई...).",
+                explanationHindi = "हिंदी वर्णमाला में स्वरों की शुरुआत 'अ' से होती है (अ, आ, इ, ई...)।",
+                negativeMarks = 0.0f,
+                tags = listOf("RBSE", "Class 1", "Hindi", "Varnamala")
+            )
+        )
+
+        list.add(
+            Question(
+                id = "Q_RBSE_C1_EVS_001",
+                category = "SCHOOL_EDUCATION",
+                subcategory = "RBSE",
+                examOrBoard = "RBSE",
+                targetClass = "Class 1",
+                subject = "Science",
+                chapterOrTopic = "Human Body Parts",
+                difficulty = "EASY",
+                language = "BOTH",
+                questionText = "Which sense organ do we use to see the world around us?",
+                questionTextHindi = "हम अपने चारों ओर की दुनिया को देखने के लिए किस अंग का उपयोग करते हैं?",
+                options = listOf("Ears (कान)", "Eyes (आँखें)", "Nose (नाक)", "Tongue (जीभ)"),
+                optionsHindi = listOf("कान", "आँखें", "नाक", "जीभ"),
+                correctAnswerIndex = 1,
+                explanation = "Human beings have two eyes which are the sense organs used for sight.",
+                explanationHindi = "आँखें देखने की ज्ञानेंद्रिय हैं जिनसे हम चारों ओर की चीजें देखते हैं।",
+                negativeMarks = 0.0f,
+                tags = listOf("RBSE", "Class 1", "Science", "Body Parts")
+            )
+        )
+
+        list.add(
+            Question(
+                id = "Q_RBSE_C1_M_002",
+                category = "SCHOOL_EDUCATION",
+                subcategory = "RBSE",
+                examOrBoard = "RBSE",
+                targetClass = "Class 1",
+                subject = "Mathematics",
+                chapterOrTopic = "Shapes (आकृतियाँ)",
+                difficulty = "EASY",
+                language = "BOTH",
+                questionText = "What shape is a round coin or a full chapati (roti)?",
+                questionTextHindi = "एक गोल सिक्का या रोटी किस आकृति की होती है?",
+                options = listOf("Square (चौकोर/वर्ग)", "Circle (गोलाकार/वृत्त)", "Triangle (त्रिकोण)", "Rectangle (आयत)"),
+                optionsHindi = listOf("वर्ग (चौकोर)", "वृत्त (गोलाकार)", "त्रिभुज (त्रिकोण)", "आयत"),
+                correctAnswerIndex = 1,
+                explanation = "A coin and a chapati have a round boundary with no corners, known as a circle.",
+                explanationHindi = "सिक्का और रोटी पूरी तरह गोल होती है, जिसे वृत्त (Circle) कहते हैं।",
+                negativeMarks = 0.0f,
+                tags = listOf("RBSE", "Class 1", "Mathematics", "Shapes")
+            )
+        )
+
+        list.add(
+            Question(
+                id = "Q_RBSE_C1_EVS_002",
+                category = "SCHOOL_EDUCATION",
+                subcategory = "RBSE",
+                examOrBoard = "RBSE",
+                targetClass = "Class 1",
+                subject = "Science",
+                chapterOrTopic = "Animals & Nature",
+                difficulty = "EASY",
+                language = "BOTH",
+                questionText = "Which animal is popularly called the 'Ship of the Desert' in Rajasthan?",
+                questionTextHindi = "राजस्थान में किस पशु को 'रेगिस्तान का जहाज' कहा जाता है?",
+                options = listOf("Horse (घोड़ा)", "Camel (ऊँट)", "Elephant (हाथी)", "Cow (गाय)"),
+                optionsHindi = listOf("घोड़ा", "ऊँट", "हाथी", "गाय"),
+                correctAnswerIndex = 1,
+                explanation = "The camel has padded feet that allow it to walk easily on desert sand, earning it the title 'Ship of the Desert'.",
+                explanationHindi = "ऊँट के गद्देदार पैर रेत में नहीं धंसते, इसलिए इसे 'रेगिस्तान का जहाज' कहते हैं।",
+                negativeMarks = 0.0f,
+                tags = listOf("RBSE", "Class 1", "Science", "Rajasthan")
+            )
+        )
+
+        list.add(
+            Question(
+                id = "Q_RBSE_C1_ENG_001",
+                category = "SCHOOL_EDUCATION",
+                subcategory = "RBSE",
+                examOrBoard = "RBSE",
+                targetClass = "Class 1",
+                subject = "English",
+                chapterOrTopic = "Alphabet & Colors",
+                difficulty = "EASY",
+                language = "BOTH",
+                questionText = "What color is a fresh ripe tomato or an apple?",
+                questionTextHindi = "पके हुए टमाटर या सेब का रंग कैसा होता है?",
+                options = listOf("Blue (नीला)", "Red (लाल)", "Black (काला)", "White (सफेद)"),
+                optionsHindi = listOf("नीला", "लाल", "काला", "सफेद"),
+                correctAnswerIndex = 1,
+                explanation = "Ripe apples and fresh tomatoes are typically red in color.",
+                explanationHindi = "पके हुए सेब और टमाटर का रंग लाल (Red) होता है।",
+                negativeMarks = 0.0f,
+                tags = listOf("RBSE", "Class 1", "English", "Colors")
+            )
+        )
+
+        list.add(
+            Question(
+                id = "Q_CBSE_C1_ENG_001",
+                category = "SCHOOL_EDUCATION",
+                subcategory = "CBSE",
+                examOrBoard = "CBSE",
+                targetClass = "Class 1",
+                subject = "English",
+                chapterOrTopic = "Vowels",
+                difficulty = "EASY",
+                language = "BOTH",
+                questionText = "Which of the following letters is an English vowel?",
+                questionTextHindi = "निम्नलिखित में से कौन सा अक्षर अंग्रेजी का स्वर (Vowel) है?",
+                options = listOf("B", "A", "M", "T"),
+                optionsHindi = listOf("B", "A", "M", "T"),
+                correctAnswerIndex = 1,
+                explanation = "The 5 English vowels are A, E, I, O, and U. All other 21 letters are consonants.",
+                explanationHindi = "अंग्रेजी में 5 स्वर (Vowels) होते हैं: A, E, I, O, U।",
+                negativeMarks = 0.0f,
+                tags = listOf("CBSE", "Class 1", "English", "Vowels")
+            )
+        )
+
+        list.add(
+            Question(
+                id = "Q_CBSE_C1_HIN_001",
+                category = "SCHOOL_EDUCATION",
+                subcategory = "CBSE",
+                examOrBoard = "CBSE",
+                targetClass = "Class 1",
+                subject = "Hindi",
+                chapterOrTopic = "Shabd Gyaan (शब्द ज्ञान)",
+                difficulty = "EASY",
+                language = "BOTH",
+                questionText = "Which word is formed by joining the letters 'क' + 'म' + 'ल'?",
+                questionTextHindi = "'क' + 'म' + 'ल' को मिलाने पर कौन सा सुंदर शब्द बनता है?",
+                options = listOf("कलम", "कमल", "मकान", "महल"),
+                optionsHindi = listOf("कलम", "कमल", "मकान", "महल"),
+                correctAnswerIndex = 1,
+                explanation = "Joining letters 'क' + 'म' + 'ल' forms the word 'कमल' (Lotus, India's national flower).",
+                explanationHindi = "'क' + 'म' + 'ल' मिलकर 'कमल' बनता है, जो भारत का राष्ट्रीय पुष्प है।",
+                negativeMarks = 0.0f,
+                tags = listOf("CBSE", "Class 1", "Hindi", "Words")
+            )
+        )
+
+        list.add(
+            Question(
+                id = "Q_CBSE_C1_EVS_001",
+                category = "SCHOOL_EDUCATION",
+                subcategory = "CBSE",
+                examOrBoard = "CBSE",
+                targetClass = "Class 1",
+                subject = "Science",
+                chapterOrTopic = "Plants and Trees",
+                difficulty = "EASY",
+                language = "BOTH",
+                questionText = "What color are most healthy living plant leaves?",
+                questionTextHindi = "पेड़-पौधों की अधिकांश हरी पत्तियां किस रंग की होती हैं?",
+                options = listOf("Green (हरा)", "Blue (नीला)", "Pink (गुलाबी)", "Black (काला)"),
+                optionsHindi = listOf("हरा", "नीला", "गुलाबी", "काला"),
+                correctAnswerIndex = 0,
+                explanation = "Plant leaves are green due to the presence of the green pigment chlorophyll.",
+                explanationHindi = "पेड़-पौधों की पत्तियां क्लोरोफिल के कारण हरी (Green) होती हैं।",
+                negativeMarks = 0.0f,
+                tags = listOf("CBSE", "Class 1", "Science", "Plants")
+            )
+        )
+
+        list.add(
+            Question(
+                id = "Q_CBSE_C1_M_002",
+                category = "SCHOOL_EDUCATION",
+                subcategory = "CBSE",
+                examOrBoard = "CBSE",
+                targetClass = "Class 1",
+                subject = "Mathematics",
+                chapterOrTopic = "Subtraction",
+                difficulty = "EASY",
+                language = "BOTH",
+                questionText = "If you have 5 toffees and you eat 2 of them, how many are left? (5 - 2 = ?)",
+                questionTextHindi = "यदि आपके पास 5 टॉफियां हैं और आपने 2 खा लीं, तो कितनी बचीं? (5 - 2 = ?)",
+                options = listOf("2", "3", "4", "7"),
+                optionsHindi = listOf("2", "3", "4", "7"),
+                correctAnswerIndex = 1,
+                explanation = "5 minus 2 equals 3: (5 - 2 = 3).",
+                explanationHindi = "5 में से 2 घटाने पर 3 बचते हैं (5 - 2 = 3)।",
+                negativeMarks = 0.0f,
+                tags = listOf("CBSE", "Class 1", "Mathematics", "Subtraction")
+            )
+        )
+
+        list.add(
+            Question(
+                id = "Q_RBSE_C2_M_001",
+                category = "SCHOOL_EDUCATION",
+                subcategory = "RBSE",
+                examOrBoard = "RBSE",
+                targetClass = "Class 2",
+                subject = "Mathematics",
+                chapterOrTopic = "Numbers & Place Value",
+                difficulty = "EASY",
+                language = "BOTH",
+                questionText = "In the number 45, what is the face value and place value of digit 4?",
+                questionTextHindi = "संख्या 45 में अंक 4 का स्थानीय मान (Place Value) क्या है?",
+                options = listOf("4", "40", "45", "5"),
+                optionsHindi = listOf("4", "40", "45", "5"),
+                correctAnswerIndex = 1,
+                explanation = "Digit 4 is at the tens place, so its place value is 4 x 10 = 40.",
+                explanationHindi = "अंक 4 दहाई (Tens) के स्थान पर है, इसलिए इसका स्थानीय मान 40 है।",
+                negativeMarks = 0.0f,
+                tags = listOf("RBSE", "Class 2", "Mathematics", "Place Value")
+            )
+        )
+
+        list.add(
+            Question(
+                id = "Q_RBSE_C2_EVS_001",
+                category = "SCHOOL_EDUCATION",
+                subcategory = "RBSE",
+                examOrBoard = "RBSE",
+                targetClass = "Class 2",
+                subject = "Science",
+                chapterOrTopic = "Seasons & Weather",
+                difficulty = "EASY",
+                language = "BOTH",
+                questionText = "In which season do we wear warm woolen clothes and drink hot milk/tea?",
+                questionTextHindi = "हम किस मौसम में गर्म ऊनी कपड़े पहनते हैं?",
+                options = listOf("Summer (गर्मी)", "Winter (सर्दी/शीत ऋतु)", "Rainy (वर्षा ऋतु)", "Spring (वसंत)"),
+                optionsHindi = listOf("गर्मी", "सर्दी (शीत ऋतु)", "वर्षा ऋतु", "वसंत"),
+                correctAnswerIndex = 1,
+                explanation = "Woolen sweaters, jackets, and caps protect our bodies from cold during winter season.",
+                explanationHindi = "सर्दी के मौसम में ठंड से बचने के लिए ऊनी कपड़े पहने जाते हैं।",
+                negativeMarks = 0.0f,
+                tags = listOf("RBSE", "Class 2", "Science", "Seasons")
+            )
+        )
+
+        list.add(
+            Question(
+                id = "Q_RBSE_C2_HIN_001",
+                category = "SCHOOL_EDUCATION",
+                subcategory = "RBSE",
+                examOrBoard = "RBSE",
+                targetClass = "Class 2",
+                subject = "Hindi",
+                chapterOrTopic = "Vilom Shabd (विलोम शब्द)",
+                difficulty = "EASY",
+                language = "BOTH",
+                questionText = "What is the opposite word (विलोम शब्द) of 'दिन' (Day)?",
+                questionTextHindi = "'दिन' शब्द का सही विलोम (उलटा अर्थ वाला) शब्द क्या है?",
+                options = listOf("सुबह", "रात", "शाम", "दोपहर"),
+                optionsHindi = listOf("सुबह", "रात", "शाम", "दोपहर"),
+                correctAnswerIndex = 1,
+                explanation = "The opposite of 'दिन' (Day) is 'रात' (Night).",
+                explanationHindi = "'दिन' का विलोम शब्द 'रात' होता है।",
+                negativeMarks = 0.0f,
+                tags = listOf("RBSE", "Class 2", "Hindi", "Vilom Shabd")
+            )
+        )
+
+        list.add(
+            Question(
+                id = "Q_RBSE_C2_M_002",
+                category = "SCHOOL_EDUCATION",
+                subcategory = "RBSE",
+                examOrBoard = "RBSE",
+                targetClass = "Class 2",
+                subject = "Mathematics",
+                chapterOrTopic = "Time & Calendar",
+                difficulty = "EASY",
+                language = "BOTH",
+                questionText = "How many days are there in a standard week?",
+                questionTextHindi = "एक सप्ताह में कितने दिन होते हैं?",
+                options = listOf("5", "7", "10", "12"),
+                optionsHindi = listOf("5", "7", "10", "12"),
+                correctAnswerIndex = 1,
+                explanation = "A week consists of 7 days: Monday through Sunday.",
+                explanationHindi = "एक सप्ताह में 7 दिन (सोमवार से रविवार) होते हैं।",
+                negativeMarks = 0.0f,
+                tags = listOf("RBSE", "Class 2", "Mathematics", "Calendar")
+            )
+        )
+
+        list.add(
+            Question(
+                id = "Q_CBSE_C2_M_002",
+                category = "SCHOOL_EDUCATION",
+                subcategory = "CBSE",
+                examOrBoard = "CBSE",
+                targetClass = "Class 2",
+                subject = "Mathematics",
+                chapterOrTopic = "Even & Odd Numbers",
+                difficulty = "EASY",
+                language = "BOTH",
+                questionText = "Which of the following numbers is an Even number (सम संख्या)?",
+                questionTextHindi = "निम्नलिखित में से कौन सी एक सम संख्या (Even Number) है?",
+                options = listOf("7", "8", "9", "11"),
+                optionsHindi = listOf("7", "8", "9", "11"),
+                correctAnswerIndex = 1,
+                explanation = "An even number is divisible by 2 with no remainder. 8 is an even number.",
+                explanationHindi = "सम संख्या वह है जो 2 से पूरी विभाजित होती है। 8 एक सम संख्या है।",
+                negativeMarks = 0.0f,
+                tags = listOf("CBSE", "Class 2", "Mathematics", "Even Odd")
+            )
+        )
+
+        list.add(
+            Question(
+                id = "Q_CBSE_C2_ENG_001",
+                category = "SCHOOL_EDUCATION",
+                subcategory = "CBSE",
+                examOrBoard = "CBSE",
+                targetClass = "Class 2",
+                subject = "English",
+                chapterOrTopic = "Singular and Plural",
+                difficulty = "EASY",
+                language = "BOTH",
+                questionText = "What is the plural form of the word 'Box'?",
+                questionTextHindi = "शब्द 'Box' का सही बहुवचन (Plural) रूप क्या है?",
+                options = listOf("Boxs", "Boxes", "Boxies", "Boxen"),
+                optionsHindi = listOf("Boxs", "Boxes", "Boxies", "Boxen"),
+                correctAnswerIndex = 1,
+                explanation = "Nouns ending in -x form their plural by adding -es: Box -> Boxes.",
+                explanationHindi = "जो संज्ञा -x पर समाप्त होती है, उसका बहुवचन -es जोड़कर 'Boxes' बनता है।",
+                negativeMarks = 0.0f,
+                tags = listOf("CBSE", "Class 2", "English", "Plural")
+            )
+        )
+
+        list.add(
+            Question(
+                id = "Q_CBSE_C2_EVS_001",
+                category = "SCHOOL_EDUCATION",
+                subcategory = "CBSE",
+                examOrBoard = "CBSE",
+                targetClass = "Class 2",
+                subject = "Science",
+                chapterOrTopic = "Traffic Rules",
+                difficulty = "EASY",
+                language = "BOTH",
+                questionText = "What does the RED light on a traffic signal indicate to drivers?",
+                questionTextHindi = "ट्रैफिक सिग्नल की लाल बत्ती (Red Light) क्या संकेत देती है?",
+                options = listOf("Go fast (तेज चलो)", "Stop immediately (रुको)", "Get ready (तैयार रहो)", "Turn around (वापस घूमो)"),
+                optionsHindi = listOf("तेज चलो", "रुको", "तैयार रहो", "वापस घूमो"),
+                correctAnswerIndex = 1,
+                explanation = "Red light means Stop, Yellow light means Wait/Get Ready, and Green light means Go.",
+                explanationHindi = "ट्रैफिक बत्ती में लाल का अर्थ 'रुको', पीली का अर्थ 'तैयार रहो' और हरी का अर्थ 'चलो' होता है।",
+                negativeMarks = 0.0f,
+                tags = listOf("CBSE", "Class 2", "Science", "Safety")
+            )
+        )
+
+        list.add(
+            Question(
+                id = "Q_RBSE_C3_M_001",
+                category = "SCHOOL_EDUCATION",
+                subcategory = "RBSE",
+                examOrBoard = "RBSE",
+                targetClass = "Class 3",
+                subject = "Mathematics",
+                chapterOrTopic = "Multiplication Tables",
+                difficulty = "EASY",
+                language = "BOTH",
+                questionText = "What is 8 multiplied by 7? (8 x 7 = ?)",
+                questionTextHindi = "8 को 7 से गुणा करने पर क्या प्राप्त होता है? (8 x 7 = ?)",
+                options = listOf("54", "56", "64", "48"),
+                optionsHindi = listOf("54", "56", "64", "48"),
+                correctAnswerIndex = 1,
+                explanation = "According to standard multiplication tables: 8 x 7 = 56.",
+                explanationHindi = "पहाड़े के अनुसार 8 x 7 = 56 होता है।",
+                negativeMarks = 0.0f,
+                tags = listOf("RBSE", "Class 3", "Mathematics", "Multiplication")
+            )
+        )
+
+        list.add(
+            Question(
+                id = "Q_RBSE_C3_HIN_001",
+                category = "SCHOOL_EDUCATION",
+                subcategory = "RBSE",
+                examOrBoard = "RBSE",
+                targetClass = "Class 3",
+                subject = "Hindi",
+                chapterOrTopic = "Paryayvachi Shabd",
+                difficulty = "EASY",
+                language = "BOTH",
+                questionText = "Which of the following is a synonym (पर्यायवाची) for 'सूर्य' (Sun)?",
+                questionTextHindi = "निम्नलिखित में से 'सूर्य' का पर्यायवाची शब्द कौन सा है?",
+                options = listOf("रवि (Ravi)", "चंद्रमा", "पवन", "जलधर"),
+                optionsHindi = listOf("रवि", "चंद्रमा", "पवन", "जलधर"),
+                correctAnswerIndex = 0,
+                explanation = "Ravi, Dinkar, Bhaskar, and Surya are all synonyms for the Sun.",
+                explanationHindi = "सूर्य के पर्यायवाची शब्द रवि, दिनकर, भास्कर और भानु हैं।",
+                negativeMarks = 0.0f,
+                tags = listOf("RBSE", "Class 3", "Hindi", "Synonyms")
+            )
+        )
+
+        list.add(
+            Question(
+                id = "Q_CBSE_C3_EVS_001",
+                category = "SCHOOL_EDUCATION",
+                subcategory = "CBSE",
+                examOrBoard = "CBSE",
+                targetClass = "Class 3",
+                subject = "Science",
+                chapterOrTopic = "Water Cycle",
+                difficulty = "EASY",
+                language = "BOTH",
+                questionText = "Water on heating converts into an invisible gas called:",
+                questionTextHindi = "पानी को गर्म करने पर वह किस अदृश्य गैस में बदल जाता है?",
+                options = listOf("Ice (बर्फ)", "Water Vapour / Steam (जलवाष्प/भाप)", "Smoke (धुआं)", "Oxygen (ऑक्सीजन)"),
+                optionsHindi = listOf("बर्फ", "जलवाष्प (भाप)", "धुआं", "ऑक्सीजन"),
+                correctAnswerIndex = 1,
+                explanation = "When water boils or evaporates, liquid water turns into water vapour (steam).",
+                explanationHindi = "पानी गर्म होने पर वाष्पीकृत होकर जलवाष्प (भाप) बन जाता है।",
+                negativeMarks = 0.0f,
+                tags = listOf("CBSE", "Class 3", "Science", "Water")
+            )
+        )
+
+        list.add(
+            Question(
+                id = "Q_RBSE_C4_M_001",
+                category = "SCHOOL_EDUCATION",
+                subcategory = "RBSE",
+                examOrBoard = "RBSE",
+                targetClass = "Class 4",
+                subject = "Mathematics",
+                chapterOrTopic = "Geometry & Perimeter",
+                difficulty = "EASY",
+                language = "BOTH",
+                questionText = "What is the perimeter of a square whose each side measures 6 cm? (Perimeter = 4 x side)",
+                questionTextHindi = "एक वर्गाकार खेत जिसकी प्रत्येक भुजा 6 सेमी है, का परिमाप क्या होगा? (परिमाप = 4 x भुजा)",
+                options = listOf("24 cm", "36 cm", "12 cm", "18 cm"),
+                optionsHindi = listOf("24 सेमी", "36 सेमी", "12 सेमी", "18 सेमी"),
+                correctAnswerIndex = 0,
+                explanation = "Perimeter of square = 4 x side = 4 x 6 cm = 24 cm.",
+                explanationHindi = "वर्ग का परिमाप = 4 x भुजा = 4 x 6 = 24 सेमी।",
+                negativeMarks = 0.0f,
+                tags = listOf("RBSE", "Class 4", "Mathematics", "Perimeter")
+            )
+        )
+
+        list.add(
+            Question(
+                id = "Q_RBSE_C4_HIN_001",
+                category = "SCHOOL_EDUCATION",
+                subcategory = "RBSE",
+                examOrBoard = "RBSE",
+                targetClass = "Class 4",
+                subject = "Hindi",
+                chapterOrTopic = "Sangya (संज्ञा)",
+                difficulty = "EASY",
+                language = "BOTH",
+                questionText = "In the sentence 'जयपुर राजस्थान की राजधानी है', which word is a proper noun (व्यक्तिवाचक संज्ञा)?",
+                questionTextHindi = "'जयपुर राजस्थान की राजधानी है' में कौन सा शब्द व्यक्तिवाचक संज्ञा है?",
+                options = listOf("राजधानी", "जयपुर", "है", "की"),
+                optionsHindi = listOf("राजधानी", "जयपुर", "है", "की"),
+                correctAnswerIndex = 1,
+                explanation = "'जयपुर' is a specific city name, hence a proper noun (व्यक्तिवाचक संज्ञा).",
+                explanationHindi = "'जयपुर' एक विशेष नगर का नाम है, इसलिए यह व्यक्तिवाचक संज्ञा है।",
+                negativeMarks = 0.0f,
+                tags = listOf("RBSE", "Class 4", "Hindi", "Grammar")
+            )
+        )
+
+        list.add(
+            Question(
+                id = "Q_CBSE_C4_EVS_001",
+                category = "SCHOOL_EDUCATION",
+                subcategory = "CBSE",
+                examOrBoard = "CBSE",
+                targetClass = "Class 4",
+                subject = "Science",
+                chapterOrTopic = "Human Digestion",
+                difficulty = "MEDIUM",
+                language = "BOTH",
+                questionText = "In human digestive system, where does the digestion of food begin?",
+                questionTextHindi = "मानव पाचन तंत्र में भोजन का पाचन सबसे पहले कहाँ से शुरू होता है?",
+                options = listOf("Stomach (आमाशय)", "Mouth / Oral Cavity (मुख)", "Small Intestine (छोटी आंत)", "Food Pipe (ग्रासनली)"),
+                optionsHindi = listOf("आमाशय", "मुख (Mouth)", "छोटी आंत", "ग्रासनली"),
+                correctAnswerIndex = 1,
+                explanation = "Digestion begins in the mouth where saliva containing salivary amylase breaks down starch.",
+                explanationHindi = "मुख में लार ग्रंथि से निकलने वाले टायलिन/एमाइलेज एंजाइम से स्टार्च का पाचन शुरू होता है।",
+                negativeMarks = 0.0f,
+                tags = listOf("CBSE", "Class 4", "Science", "Digestion")
+            )
+        )
+
+        list.add(
+            Question(
+                id = "Q_RBSE_C5_M_001",
+                category = "SCHOOL_EDUCATION",
+                subcategory = "RBSE",
+                examOrBoard = "RBSE",
+                targetClass = "Class 5",
+                subject = "Mathematics",
+                chapterOrTopic = "Angles (कोण)",
+                difficulty = "EASY",
+                language = "BOTH",
+                questionText = "An angle measuring exactly 90 degrees (90°) is known as a:",
+                questionTextHindi = "ठीक 90 अंश (90°) के कोण को क्या कहते हैं?",
+                options = listOf("Acute angle (न्यूनकोण)", "Right angle (समकोण)", "Obtuse angle (अधिककोण)", "Straight angle (ऋजुकोण)"),
+                optionsHindi = listOf("न्यूनकोण", "समकोण", "अधिककोण", "ऋजुकोण"),
+                correctAnswerIndex = 1,
+                explanation = "An angle of exactly 90° is a Right Angle (समकोण).",
+                explanationHindi = "90° के कोण को समकोण (Right Angle) कहा जाता है।",
+                negativeMarks = 0.0f,
+                tags = listOf("RBSE", "Class 5", "Mathematics", "Angles")
+            )
+        )
+
+        list.add(
+            Question(
+                id = "Q_RBSE_C5_EVS_002",
+                category = "SCHOOL_EDUCATION",
+                subcategory = "RBSE",
+                examOrBoard = "RBSE",
+                targetClass = "Class 5",
+                subject = "Science",
+                chapterOrTopic = "Mosquito Diseases",
+                difficulty = "MEDIUM",
+                language = "BOTH",
+                questionText = "Which dangerous disease is transmitted to humans by the bite of a female Anopheles mosquito?",
+                questionTextHindi = "मादा एनाफिलीज़ मच्छर के काटने से कौन सा रोग फैलता है?",
+                options = listOf("Cholera (हैजा)", "Malaria (मलेरिया)", "Typhoid (टाइफाइड)", "Polio (पोलियो)"),
+                optionsHindi = listOf("हैजा", "मलेरिया", "टाइफाइड", "पोलियो"),
+                correctAnswerIndex = 1,
+                explanation = "Female Anopheles mosquitoes carry Plasmodium parasites, causing Malaria.",
+                explanationHindi = "मादा एनाफिलीज़ मच्छर प्लास्मोडियम परजीवी के वाहक होते हैं जिससे मलेरिया होता है।",
+                negativeMarks = 0.0f,
+                tags = listOf("RBSE", "Class 5", "Science", "Diseases")
+            )
+        )
+
+        list.add(
+            Question(
+                id = "Q_CBSE_C5_M_002",
+                category = "SCHOOL_EDUCATION",
+                subcategory = "CBSE",
+                examOrBoard = "CBSE",
+                targetClass = "Class 5",
+                subject = "Mathematics",
+                chapterOrTopic = "Area of Rectangle",
+                difficulty = "EASY",
+                language = "BOTH",
+                questionText = "What is the area of a rectangle with length 10 cm and breadth 5 cm? (Area = Length x Breadth)",
+                questionTextHindi = "एक आयत की लंबाई 10 सेमी और चौड़ाई 5 सेमी है। इसका क्षेत्रफल क्या होगा? (क्षेत्रफल = लंबाई x चौड़ाई)",
+                options = listOf("15 sq cm", "50 sq cm", "30 sq cm", "25 sq cm"),
+                optionsHindi = listOf("15 वर्ग सेमी", "50 वर्ग सेमी", "30 वर्ग सेमी", "25 वर्ग सेमी"),
+                correctAnswerIndex = 1,
+                explanation = "Area of rectangle = length x breadth = 10 x 5 = 50 sq cm.",
+                explanationHindi = "आयत का क्षेत्रफल = लंबाई x चौड़ाई = 10 x 5 = 50 वर्ग सेमी।",
+                negativeMarks = 0.0f,
+                tags = listOf("CBSE", "Class 5", "Mathematics", "Area")
+            )
+        )
+
+        list.add(
+            Question(
+                id = "Q_RBSE_C6_M_001",
+                category = "SCHOOL_EDUCATION",
+                subcategory = "RBSE",
+                examOrBoard = "RBSE",
+                targetClass = "Class 6",
+                subject = "Mathematics",
+                chapterOrTopic = "Integers (पूर्णांक)",
+                difficulty = "EASY",
+                language = "BOTH",
+                questionText = "What is the sum of integers (-15) and (+20)?",
+                questionTextHindi = "पूर्णांकों (-15) और (+20) का योग क्या होगा?",
+                options = listOf("-35", "+5", "-5", "+35"),
+                optionsHindi = listOf("-35", "+5", "-5", "+35"),
+                correctAnswerIndex = 1,
+                explanation = "(-15) + 20 = 20 - 15 = +5.",
+                explanationHindi = "(-15) + 20 = +5। धनात्मक मान बड़ा है।",
+                negativeMarks = 0.0f,
+                tags = listOf("RBSE", "Class 6", "Mathematics", "Integers")
+            )
+        )
+
+        list.add(
+            Question(
+                id = "Q_RBSE_C6_S_001",
+                category = "SCHOOL_EDUCATION",
+                subcategory = "RBSE",
+                examOrBoard = "RBSE",
+                targetClass = "Class 6",
+                subject = "Science",
+                chapterOrTopic = "Magnets (चुंबक)",
+                difficulty = "EASY",
+                language = "BOTH",
+                questionText = "Every freely suspended bar magnet always aligns itself in which geographic direction?",
+                questionTextHindi = "स्वतंत्रतापूर्वक लटका हुआ चुंबक हमेशा किस दिशा में आकर ठहरता है?",
+                options = listOf("East-West (पूर्व-पश्चिम)", "North-South (उत्तर-दक्षिण)", "North-East (उत्तर-पूर्व)", "South-West (दक्षिण-पश्चिम)"),
+                optionsHindi = listOf("पूर्व-पश्चिम", "उत्तर-दक्षिण", "उत्तर-पूर्व", "दक्षिण-पश्चिम"),
+                correctAnswerIndex = 1,
+                explanation = "Due to Earth's magnetic field, a freely suspended magnet always points North-South.",
+                explanationHindi = "पृथ्वी के चुंबकीय प्रभाव के कारण चुंबक का उत्तरी ध्रुव उत्तर की ओर और दक्षिणी ध्रुव दक्षिण की ओर ठहरता है।",
+                negativeMarks = 0.0f,
+                tags = listOf("RBSE", "Class 6", "Science", "Magnets")
+            )
+        )
+
+        list.add(
+            Question(
+                id = "Q_CBSE_C6_SS_001",
+                category = "SCHOOL_EDUCATION",
+                subcategory = "CBSE",
+                examOrBoard = "CBSE",
+                targetClass = "Class 6",
+                subject = "Social Science",
+                chapterOrTopic = "Solar System",
+                difficulty = "EASY",
+                language = "BOTH",
+                questionText = "Which planet is the closest planet to the Sun in our Solar System?",
+                questionTextHindi = "हमारे सौरमंडल में सूर्य के सबसे निकट कौन सा ग्रह है?",
+                options = listOf("Venus (शुक्र)", "Mercury (बुध)", "Mars (मंगल)", "Earth (पृथ्वी)"),
+                optionsHindi = listOf("शुक्र", "बुध", "मंगल", "पृथ्वी"),
+                correctAnswerIndex = 1,
+                explanation = "Mercury is the smallest and innermost planet, closest to the Sun.",
+                explanationHindi = "बुध (Mercury) सूर्य का सबसे नजदीकी ग्रह है।",
+                negativeMarks = 0.0f,
+                tags = listOf("CBSE", "Class 6", "Social Science", "Solar System")
+            )
+        )
+
+        list.add(
+            Question(
+                id = "Q_RBSE_C7_S_001",
+                category = "SCHOOL_EDUCATION",
+                subcategory = "RBSE",
+                examOrBoard = "RBSE",
+                targetClass = "Class 7",
+                subject = "Science",
+                chapterOrTopic = "Acids & Bases",
+                difficulty = "EASY",
+                language = "BOTH",
+                questionText = "What color does blue litmus paper turn when dipped into an acidic solution (like lemon juice)?",
+                questionTextHindi = "नीला लिटमस पत्र किसी अम्लीय विलयन (जैसे नींबू का रस) में डालने पर किस रंग का हो जाता है?",
+                options = listOf("Green (हरा)", "Red (लाल)", "Yellow (पीला)", "Blue (नीला रहता है)"),
+                optionsHindi = listOf("हरा", "लाल", "पीला", "नीला रहता है"),
+                correctAnswerIndex = 1,
+                explanation = "Acids turn blue litmus paper red, while bases turn red litmus paper blue.",
+                explanationHindi = "अम्ल नीले लिटमस को लाल कर देते हैं, जबकि क्षार लाल लिटमस को नीला करते हैं।",
+                negativeMarks = 0.0f,
+                tags = listOf("RBSE", "Class 7", "Science", "Acids Bases")
+            )
+        )
+
+        list.add(
+            Question(
+                id = "Q_CBSE_C7_S_002",
+                category = "SCHOOL_EDUCATION",
+                subcategory = "CBSE",
+                examOrBoard = "CBSE",
+                targetClass = "Class 7",
+                subject = "Science",
+                chapterOrTopic = "Heat & Temperature",
+                difficulty = "MEDIUM",
+                language = "BOTH",
+                questionText = "What is the normal core body temperature of a healthy human being in Celsius?",
+                questionTextHindi = "एक स्वस्थ मानव शरीर का सामान्य तापमान सेल्सियस पैमाने पर कितना होता है?",
+                options = listOf("35°C", "37°C", "40°C", "98.6°C"),
+                optionsHindi = listOf("35°C", "37°C", "40°C", "98.6°C"),
+                correctAnswerIndex = 1,
+                explanation = "Normal human body temperature is 37°C (or 98.6°F on Fahrenheit scale).",
+                explanationHindi = "मानव शरीर का सामान्य तापमान 37°C (या 98.6°F) होता है।",
+                negativeMarks = 0.0f,
+                tags = listOf("CBSE", "Class 7", "Science", "Heat")
+            )
+        )
+
+        list.add(
+            Question(
+                id = "Q_RBSE_C8_M_001",
+                category = "SCHOOL_EDUCATION",
+                subcategory = "RBSE",
+                examOrBoard = "RBSE",
+                targetClass = "Class 8",
+                subject = "Mathematics",
+                chapterOrTopic = "Square Roots",
+                difficulty = "EASY",
+                language = "BOTH",
+                questionText = "What is the square root of 625? (√625 = ?)",
+                questionTextHindi = "625 का वर्गमूल (Square Root) क्या होगा? (√625 = ?)",
+                options = listOf("15", "25", "35", "20"),
+                optionsHindi = listOf("15", "25", "35", "20"),
+                correctAnswerIndex = 1,
+                explanation = "25 x 25 = 625, hence the square root of 625 is 25.",
+                explanationHindi = "25 का वर्ग 625 होता है, अतः 625 का वर्गमूल 25 है।",
+                negativeMarks = 0.0f,
+                tags = listOf("RBSE", "Class 8", "Mathematics", "Square Roots")
+            )
+        )
+
+        list.add(
+            Question(
+                id = "Q_CBSE_C8_S_002",
+                category = "SCHOOL_EDUCATION",
+                subcategory = "CBSE",
+                examOrBoard = "CBSE",
+                targetClass = "Class 8",
+                subject = "Science",
+                chapterOrTopic = "Cell Structure",
+                difficulty = "MEDIUM",
+                language = "BOTH",
+                questionText = "Which cellular organelle is universally referred to as the 'Powerhouse of the Cell'?",
+                questionTextHindi = "कोशिका का 'शक्तिगृह' (पावरहाउस) किसे कहा जाता है?",
+                options = listOf("Ribosome (राइबोसोम)", "Mitochondria (माइटोकॉन्ड्रिया)", "Golgi Body (गॉल्जीकाय)", "Nucleus (केंद्रक)"),
+                optionsHindi = listOf("राइबोसोम", "माइटोकॉन्ड्रिया", "गॉल्जीकाय", "केंद्रक"),
+                correctAnswerIndex = 1,
+                explanation = "Mitochondria synthesize cellular ATP through aerobic respiration, earning the title 'Powerhouse of the cell'.",
+                explanationHindi = "माइटोकॉन्ड्रिया में कोशिकीय श्वसन द्वारा ऊर्जा (ATP) उत्पन्न होती है, अतः इसे कोशिका का शक्तिगृह कहते हैं।",
+                negativeMarks = 0.0f,
+                tags = listOf("CBSE", "Class 8", "Science", "Cell")
+            )
+        )
+
+        list.add(
+            Question(
+                id = "Q_RBSE_C9_S_001",
+                category = "SCHOOL_EDUCATION",
+                subcategory = "RBSE",
+                examOrBoard = "RBSE",
+                targetClass = "Class 9",
+                subject = "Physics",
+                chapterOrTopic = "Gravitation",
+                difficulty = "EASY",
+                language = "BOTH",
+                questionText = "What is the standard acceleration due to gravity (g) near the surface of Earth in Class 9 Science?",
+                questionTextHindi = "कक्षा 9 भौतिकी के अनुसार पृथ्वी की सतह के निकट गुरुत्वीय त्वरण (g) का मानक मान क्या है?",
+                options = listOf("8.9 m/s²", "9.8 m/s²", "10.5 m/s²", "12.0 m/s²"),
+                optionsHindi = listOf("8.9 m/s²", "9.8 m/s²", "10.5 m/s²", "12.0 m/s²"),
+                correctAnswerIndex = 1,
+                explanation = "Acceleration due to gravity at Earth's surface is approximately g = 9.8 m/s².",
+                explanationHindi = "पृथ्वी की सतह पर गुरुत्वीय त्वरण (g) का औसत मान लगभग 9.8 m/s² होता है।",
+                negativeMarks = 0.0f,
+                tags = listOf("RBSE", "Class 9", "Physics", "Gravitation")
+            )
+        )
+
+        list.add(
+            Question(
+                id = "Q_CBSE_C9_C_001",
+                category = "SCHOOL_EDUCATION",
+                subcategory = "CBSE",
+                examOrBoard = "CBSE",
+                targetClass = "Class 9",
+                subject = "Chemistry",
+                chapterOrTopic = "Atoms and Molecules",
+                difficulty = "MEDIUM",
+                language = "BOTH",
+                questionText = "According to Avogadro's hypothesis, how many particles are present in exactly 1 mole of any substance?",
+                questionTextHindi = "आवोगाद्रो संख्या (Avogadro's Number) के अनुसार 1 मोल में कितने कण उपस्थित होते हैं?",
+                options = listOf("6.022 x 10²³", "3.14 x 10²²", "1.6 x 10⁻¹⁹", "9.8 x 10⁸"),
+                optionsHindi = listOf("6.022 x 10²³", "3.14 x 10²²", "1.6 x 10⁻¹⁹", "9.8 x 10⁸"),
+                correctAnswerIndex = 0,
+                explanation = "1 mole contains 6.022 x 10²³ entities, defined as Avogadro's constant (N_A).",
+                explanationHindi = "एक मोल में 6.022 x 10²³ कण होते हैं, जिसे आवोगाद्रो स्थिरांक कहते हैं।",
+                negativeMarks = 0.0f,
+                tags = listOf("CBSE", "Class 9", "Chemistry", "Mole Concept")
+            )
+        )
+
+        list.add(
+            Question(
+                id = "Q_CBSE11_P_001",
+                category = "SCHOOL_EDUCATION",
+                subcategory = "CBSE",
+                examOrBoard = "CBSE",
+                targetClass = "Class 11",
+                subject = "Physics",
+                chapterOrTopic = "Units and Measurements",
+                difficulty = "MEDIUM",
+                language = "BOTH",
+                questionText = "What are the dimensions of Work and Energy in terms of fundamental dimensions [M, L, T]?",
+                questionTextHindi = "कक्षा 11 भौतिकी में कार्य एवं ऊर्जा का विमीय सूत्र क्या है?",
+                options = listOf("[M¹ L¹ T⁻²]", "[M¹ L² T⁻²]", "[M¹ L² T⁻¹]", "[M¹ L⁰ T⁻²]"),
+                optionsHindi = listOf("[M¹ L¹ T⁻²]", "[M¹ L² T⁻²]", "[M¹ L² T⁻¹]", "[M¹ L⁰ T⁻²]"),
+                correctAnswerIndex = 1,
+                explanation = "Work = Force x Displacement = [M L T⁻²] x [L] = [M¹ L² T⁻²].",
+                explanationHindi = "कार्य = बल x विस्थापन = [M L T⁻²] x [L] = [M¹ L² T⁻²]।",
+                negativeMarks = 0.0f,
+                tags = listOf("CBSE", "Class 11", "Physics", "Dimensions")
+            )
+        )
+
+        list.add(
+            Question(
+                id = "Q_RBSE11_P_001",
+                category = "SCHOOL_EDUCATION",
+                subcategory = "RBSE",
+                examOrBoard = "RBSE",
+                targetClass = "Class 11",
+                subject = "Physics",
+                chapterOrTopic = "Kinematics",
+                difficulty = "MEDIUM",
+                language = "BOTH",
+                questionText = "For a projectile launched at an angle θ with speed u, what is the formula for maximum horizontal range on flat ground?",
+                questionTextHindi = "कक्षा 11 भौतिकी में प्रक्षेप्य गति के लिए अधिकतम क्षैतिज परास (Range) किस कोण पर प्राप्त होता है?",
+                options = listOf("30°", "45°", "60°", "90°"),
+                optionsHindi = listOf("30°", "45°", "60°", "90°"),
+                correctAnswerIndex = 1,
+                explanation = "Horizontal range R = (u² sin 2θ) / g. Range is maximum when sin 2θ = 1, i.e., 2θ = 90°, so θ = 45°.",
+                explanationHindi = "क्षैतिज परास R = (u² sin 2θ) / g होता है। यह 45° पर अधिकतम होता है क्योंकि sin 90° = 1।",
+                negativeMarks = 0.0f,
+                tags = listOf("RBSE", "Class 11", "Physics", "Projectile")
+            )
+        )
+
+        list.add(
+            Question(
+                id = "Q_CBSE11_C_001",
+                category = "SCHOOL_EDUCATION",
+                subcategory = "CBSE",
+                examOrBoard = "CBSE",
+                targetClass = "Class 11",
+                subject = "Chemistry",
+                chapterOrTopic = "Periodic Table",
+                difficulty = "MEDIUM",
+                language = "BOTH",
+                questionText = "Which element in the periodic table possesses the highest electronegativity value on the Pauling scale?",
+                questionTextHindi = "कक्षा 11 रसायन विज्ञान में पॉलिंग पैमाने पर सर्वाधिक विद्युत ऋणात्मकता (Electronegativity) वाला तत्व कौन सा है?",
+                options = listOf("Oxygen (O)", "Fluorine (F)", "Chlorine (Cl)", "Nitrogen (N)"),
+                optionsHindi = listOf("ऑक्सीजन", "फ्लोरीन", "क्लोरीन", "नाइट्रोजन"),
+                correctAnswerIndex = 1,
+                explanation = "Fluorine (F) has the highest electronegativity of 4.0 on the Pauling scale.",
+                explanationHindi = "फ्लोरीन (F) की विद्युत ऋणात्मकता सर्वाधिक 4.0 होती है।",
+                negativeMarks = 0.0f,
+                tags = listOf("CBSE", "Class 11", "Chemistry", "Periodic Properties")
+            )
+        )
+
+        list.add(
+            Question(
+                id = "Q_RBSE11_M_001",
+                category = "SCHOOL_EDUCATION",
+                subcategory = "RBSE",
+                examOrBoard = "RBSE",
+                targetClass = "Class 11",
+                subject = "Mathematics",
+                chapterOrTopic = "Sets (समुच्चय)",
+                difficulty = "EASY",
+                language = "BOTH",
+                questionText = "If a finite set A has n elements, how many subsets does its power set P(A) contain?",
+                questionTextHindi = "यदि एक समुच्चय A में n अवयव हैं, तो इसके घात समुच्चय P(A) में कितने उपसमुच्चय होंगे?",
+                options = listOf("n²", "2ⁿ", "2n", "n!"),
+                optionsHindi = listOf("n²", "2ⁿ", "2n", "n!"),
+                correctAnswerIndex = 1,
+                explanation = "The number of subsets of a set with n elements is 2ⁿ.",
+                explanationHindi = "n अवयवों वाले समुच्चय के कुल उपसमुच्चयों की संख्या 2ⁿ होती है।",
+                negativeMarks = 0.0f,
+                tags = listOf("RBSE", "Class 11", "Mathematics", "Sets")
+            )
+        )
+
         return list
     }
 }

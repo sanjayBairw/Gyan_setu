@@ -9,7 +9,7 @@ class QuestionDataVerificationTest {
     @Test
     fun testAllQuestionsIntegrity() {
         val questions = PrepopulateData.getQuestions()
-        assertTrue("Total questions should be at least 330 (has ${questions.size})", questions.size >= 330)
+        assertTrue("Total questions should be at least 380 (has ${questions.size})", questions.size >= 380)
 
         val idSet = mutableSetOf<String>()
         for (q in questions) {
@@ -256,6 +256,40 @@ class QuestionDataVerificationTest {
             assertEquals("All questions must belong to SCHOOL_EDUCATION", "SCHOOL_EDUCATION", q.category)
             assertEquals("All questions must be Class 10", "Class 10", q.targetClass)
             assertTrue("All questions must be Physics", q.subject == "Physics" || q.tags.contains("Physics"))
+        }
+
+        // 5. RBSE Class 1: Must be 100% Class 1 and MUST NEVER include Class 10 or Solenoid questions!
+        val rbseC1Config = com.indiaquiz.app.data.model.QuizConfig(
+            title = "RBSE Class 1 Test",
+            category = "SCHOOL_EDUCATION",
+            subcategory = "RBSE",
+            examOrBoard = "RBSE",
+            targetClass = "Class 1",
+            questionCount = 10
+        )
+        val rbseC1Questions = repo.getQuestionsForQuiz(rbseC1Config)
+        assertEquals("Must return exactly 10 questions", 10, rbseC1Questions.size)
+        for (q in rbseC1Questions) {
+            assertEquals("All questions must belong to SCHOOL_EDUCATION", "SCHOOL_EDUCATION", q.category)
+            assertEquals("Question ${q.id} MUST be Class 1", "Class 1", q.targetClass)
+            assertNotEquals("Class 1 quiz must NEVER have Class 10 questions", "Class 10", q.targetClass)
+            assertFalse("Class 1 quiz must NEVER have solenoid questions", q.questionText.contains("solenoid", ignoreCase = true))
+        }
+
+        // 6. CBSE Class 2: Must be 100% Class 2
+        val cbseC2Config = com.indiaquiz.app.data.model.QuizConfig(
+            title = "CBSE Class 2 Test",
+            category = "SCHOOL_EDUCATION",
+            subcategory = "CBSE",
+            examOrBoard = "CBSE",
+            targetClass = "Class 2",
+            questionCount = 10
+        )
+        val cbseC2Questions = repo.getQuestionsForQuiz(cbseC2Config)
+        assertEquals("Must return exactly 10 questions", 10, cbseC2Questions.size)
+        for (q in cbseC2Questions) {
+            assertEquals("All questions must belong to SCHOOL_EDUCATION", "SCHOOL_EDUCATION", q.category)
+            assertEquals("Question ${q.id} MUST be Class 2", "Class 2", q.targetClass)
         }
     }
 }

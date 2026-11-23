@@ -65,7 +65,30 @@ class QuestionRepository(private val questionDao: QuestionDao) {
                     continue
                 }
 
-                // STRICT ISOLATION 2: Subject compatibility check
+                // STRICT ISOLATION 2: Class boundary check
+                // If user selected a class (e.g. Class 1, Class 10), NEVER allow a question from a different class!
+                if (hasSpecificClass && (q.targetClass == null || !q.targetClass.equals(config.targetClass, ignoreCase = true))) {
+                    continue
+                }
+
+                // STRICT ISOLATION 3: Exam / Board check
+                if (hasSpecificExam) {
+                    val matchExam = q.examOrBoard != null && q.examOrBoard.equals(config.examOrBoard, ignoreCase = true)
+                    val matchSubcat = q.subcategory.equals(config.examOrBoard, ignoreCase = true) ||
+                            (hasSpecificSubcategory && q.subcategory.equals(config.subcategory, ignoreCase = true))
+                    if (!matchExam && !matchSubcat) {
+                        continue
+                    }
+                }
+
+                // STRICT ISOLATION 4: Subcategory check for non-school categories
+                if (hasSpecificSubcategory && config.category != "SCHOOL_EDUCATION") {
+                    if (!q.subcategory.equals(config.subcategory, ignoreCase = true)) {
+                        continue
+                    }
+                }
+
+                // STRICT ISOLATION 5: Subject compatibility check
                 // If a specific subject is requested, strictly guarantee subject compatibility!
                 if (hasSpecificSubject && !isSubjectCompatible(q.subject, q.chapterOrTopic, q.tags, config.subject)) {
                     continue
@@ -87,35 +110,42 @@ class QuestionRepository(private val questionDao: QuestionDao) {
             addFrom(getFilteredQuestions(configAnyDiff))
         }
 
-        // TIER 3: Relax Board/Exam within the SAME Class and SAME Subject
-        // (e.g. CBSE Class 10 Physics pools RBSE/BSEB/NCERT Class 10 Physics in SCHOOL_EDUCATION)
+        // TIER 3: If School Education and not enough, pool within EXACT SAME Class and SAME Subject across boards
+        // (e.g. CBSE Class 1 and RBSE Class 1 share the same NCERT curriculum)
         if (collected.size < config.questionCount && hasSpecificClass && config.category == "SCHOOL_EDUCATION") {
-            val sameClassSameSubj = all.filter { q ->
+            val sameClassPool = all.filter { q ->
                 q.category == "SCHOOL_EDUCATION" &&
                 (q.targetClass != null && q.targetClass.equals(config.targetClass, ignoreCase = true)) &&
-                isSubjectCompatible(q.subject, q.chapterOrTopic, q.tags, config.subject)
+                (!hasSpecificSubject || isSubjectCompatible(q.subject, q.chapterOrTopic, q.tags, config.subject))
             }
-            addFrom(sameClassSameSubj)
+            for (q in sameClassPool.shuffled()) {
+                if (collected.size >= config.questionCount) break
+                if (seenIds.add(q.id)) {
+                    collected.add(q)
+                }
+            }
         }
 
-        // TIER 4: Same Subject across all grades within same category (e.g. High School Physics)
+        // TIER 4: Same Subject across same category (STRICTLY RESPECTING CLASS)
         if (collected.size < config.questionCount && hasSpecificSubject && hasSpecificCategory) {
             val sameSubjSameCat = all.filter { q ->
                 q.category.equals(config.category, ignoreCase = true) &&
+                (!hasSpecificClass || (q.targetClass != null && q.targetClass.equals(config.targetClass, ignoreCase = true))) &&
                 isSubjectCompatible(q.subject, q.chapterOrTopic, q.tags, config.subject)
             }
             addFrom(sameSubjSameCat)
         }
 
-        // TIER 5: Subcategory pool (pool remaining questions from the same subcategory)
+        // TIER 5: Subcategory pool (STRICTLY RESPECTING CLASS)
         if (collected.size < config.questionCount && hasSpecificSubcategory) {
             val subcatPool = all.filter { q ->
-                q.subcategory.equals(config.subcategory, ignoreCase = true)
+                q.subcategory.equals(config.subcategory, ignoreCase = true) &&
+                (!hasSpecificClass || (q.targetClass != null && q.targetClass.equals(config.targetClass, ignoreCase = true)))
             }
             addFrom(subcatPool)
         }
 
-        // TIER 6: Category pool (pool remaining questions from the same category)
+        // TIER 6: Category pool (STRICTLY RESPECTING CLASS)
         if (collected.size < config.questionCount && hasSpecificCategory) {
             val catPool = all.filter { q ->
                 q.category.equals(config.category, ignoreCase = true) &&
@@ -126,7 +156,7 @@ class QuestionRepository(private val questionDao: QuestionDao) {
 
         // PADDING (if still less than questionCount and collected is not empty):
         // Pad by duplicating from the collected set with unique IDs so that user ALWAYS gets their selected question count
-        // and every question is 100% strictly on-topic!
+        // and every question is 100% strictly on-topic, EXACT SAME CLASS, EXACT SAME EXAM, and EXACT SAME SUBJECT!
         if (collected.isNotEmpty() && collected.size < config.questionCount) {
             val original = collected.toList()
             var padIndex = 1
